@@ -120,6 +120,7 @@ systemctl enable zabbix-agent2
 
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 2](ссылка на скриншот 2)`
+
 Configuration > Hosts
 <img width="918" height="520" alt="2" src="https://github.com/user-attachments/assets/fe9f3c7c-efda-4b6e-b456-573dd8cd22c7" />
 
@@ -156,6 +157,13 @@ Monitoring > Latest data
 
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота](ссылка на скриншот)`
+
+Windows Диск C
+<img width="2290" height="1065" alt="7" src="https://github.com/user-attachments/assets/40c21077-0bb6-452c-953f-07afbb72a6af" />
+
+Linux Корень
+<img width="2269" height="968" alt="8" src="https://github.com/user-attachments/assets/d095af78-15bf-4f97-97ae-d4014117d15b" />
+
 
 ### Задание 4
 
