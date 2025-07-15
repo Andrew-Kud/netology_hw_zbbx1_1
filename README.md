@@ -95,13 +95,42 @@ systemctl enable --now zabbix-server zabbix-agent2
 ```
 Поле для вставки кода...
 ....
+sudo -s
 ....
+cd /home/adm1
 ....
+wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.0+ubuntu24.04_all.deb
+....
+dpkg -i zabbix-release_latest_7.0+ubuntu24.04_all.deb
+....
+sudo apt update
+....
+sudo apt install zabbix-agent2
+....
+sudo apt install zabbix-agent2-plugin-postgresql
+....
+sudo nano /etc/zabbix/zabbix_agent2.conf
+поменял порт прослушивания на 10052 и сервер на свой
+....
+systemctl restart zabbix-agent2
+....
+systemctl enable zabbix-agent2
 ....
 ```
 
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 2](ссылка на скриншот 2)`
+Configuration > Hosts
+<img width="918" height="520" alt="2" src="https://github.com/user-attachments/assets/fe9f3c7c-efda-4b6e-b456-573dd8cd22c7" />
+
+zabbix agent лог
+<img width="1123" height="902" alt="3" src="https://github.com/user-attachments/assets/2e5eb57c-63a6-4cff-9b19-1b6c3c375ba4" />
+<img width="735" height="184" alt="4" src="https://github.com/user-attachments/assets/8cfc5270-543d-4e4d-b7b5-0f79b5d432b7" />
+
+Monitoring > Latest data
+<img width="2217" height="1208" alt="5" src="https://github.com/user-attachments/assets/64ce0665-5d37-45bb-a14d-3e1fe7e9b09c" />
+<img width="1973" height="1183" alt="6" src="https://github.com/user-attachments/assets/2ac3bf04-878f-4881-8d1a-f44bc1e58bb0" />
+
 
 
 ---
